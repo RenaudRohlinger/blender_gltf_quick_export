@@ -46,7 +46,7 @@ class HelloWorldPanel(bpy.types.Panel):
 
         obj = context.object
        
-        layout.operator('object.simple_operator')
+        layout.operator('object.simple_operator', icon='SHADERFX')
 
 
 def register():
